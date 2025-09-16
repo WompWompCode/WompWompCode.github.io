@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="indexStyle.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Validator</title>
+        <script src = "loginValidator.js"></script>
+    </head>
+    <body>
+        <h1>Login Validator</h1>
+        <div class = genericform> 
+            <form name="LoginForm" action="" onsubmit="return validateForm()" method="post">
+                <table>
+                    <tr>
+                        <td>Username:</td>
+                        <td><input type = "text" id = "username"></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input type = "text" id = "email"></td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td><input type = "password" id = "password1" value = ""></td>
+                    </tr>
+                    <tr>
+                        <td>Repeat Password:</td>
+                        <td><input type = "password" id = "password2" value = ""></td>
+                    </tr>
+                </table>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>

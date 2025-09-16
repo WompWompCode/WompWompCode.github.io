@@ -81,7 +81,7 @@ ul{
     left: 0;
 }
 
-.contactform {
+.genericform {
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -92,19 +92,19 @@ ul{
     font-size: x-large;
 }
 
-.contactform table {
+.genericform table {
     padding-top: 10px;
     padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
 }
 
-.contactform table tr {
+.genericform table tr {
     padding: 50px;
 }
 
 
 
-.contactform button {
+.genericform button {
     font-size: xx-large;
 }
